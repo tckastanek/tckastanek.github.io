@@ -1,0 +1,216 @@
+<!doctype HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Thomas Kastanek</title>
+
+        <link rel="stylesheet" href="main.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:400,600" rel="stylesheet">
+    </head>
+    <body>
+      <div class="wrapper">
+        <header>
+          <div class="header-container flex-container">
+            <a href="#" class="home-link"><h1>Thomas Kastanek</h1></a>
+
+            <!-- Hamburger Button  -->
+            <div id="hamburger-button" class="hamburger">
+              <div class="hamburger-stripe"></div>
+              <div class="hamburger-stripe"></div>
+              <div class="hamburger-stripe"></div>
+            </div>
+
+            <nav id="main-nav" class="main-nav">
+                <ul class="main-nav-container flex-container">
+                    <li class="main-nav-link"><a href="#about-me">About</a></li>
+                    <!-- <li class="main-nav-link"><a href="#work">Work</a></li> -->
+                    <li class="main-nav-link"><a href="#contact">Contact </a></li>
+                    <!-- <li class="main-nav-link"><a href="#">Resume</a></li> -->
+                </ul>
+            </nav>
+          </div>
+        </header>
+
+        <div class="main-content-container">
+          <div class="hero">
+            <div class="jumbotron">
+              <div class="down-arrow">
+                <a href="#about-me"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <section class="about-me" id="about-me" tabindex="-1">
+            <div class="section-container">
+              <h2>About Me</h2>
+              <img class="headshot" src="assets/portfolio-image-1695x1695.jpg"
+                  alt="Thomas Kastanek Portfolio Headshot">
+
+              <p class="about">
+                  Hi, my name is Thomas and I'm a full-stack web developer from Washington, DC. I like to JavaScript all the things and have experience in jQuery, Node.js, and MongoDB. I'm also a big fan of the React/React-Native and Redux paradigm.
+              </p>
+            </div>
+          </section>
+          <hr>
+          <!-- <section class="work" id="work" tabindex="-1"> -->
+            <!-- <div class="section-container">
+              <h2>My work</h2>
+              <div class="project-container">
+                <section class="project">
+                    <h3>Frobnicator</h3>
+                    <img class="project-image" src="http://unsplash.it/350/150?random&amp;bust=1"
+                        alt="Frobnicator screenshot">
+                    <p class="project-description">
+                        A frob which allows you to frobnicate other frobs.
+                    </p>
+                    <ul class="project-stack">
+                        <li class="project-stack-item">
+                            <img src="assets/react.svg" alt="React JS Logo">
+                        </li>
+                        <li class="project-stack-item">
+                            <img src="assets/redux.svg" alt="Redux JS Logo">
+                        </li>
+                        <li class="project-stack-item">
+                            <img src="assets/nodejs-icon.svg" alt="Node JS Logo">
+                        </li>
+                    </ul>
+                    <nav class="project-links">
+                        <ul>
+                            <li class="project-link project-link-live">
+                                <a href="#">Live demo</a>
+                            </li>
+                            <li class="project-link project-link-github">
+                                <a href="#">Source code</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="project-down-arrow">
+                      <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+                    </button>
+                </section>
+                <section class="project">
+                    <h3>FooBar</h3>
+                    <img class="project-image" src="http://unsplash.it/350/150?random&amp;bust=2"
+                        alt="FooBar screenshot">
+                    <p class="project-description">
+                        A foo which allows you to bar other bazes.
+                    </p>
+                    <ul class="project-stack">
+                        <li class="project-stack-item">
+                            <img src="assets/react.svg" alt="React JS Logo">
+                        </li>
+                        <li class="project-stack-item">
+                            <img src="assets/redux.svg" alt="Redux JS Logo">
+                        </li>
+                        <li class="project-stack-item">
+                            <img src="assets/nodejs-icon.svg" alt="Node JS Logo">
+                        </li>
+                    </ul>
+                    <nav class="project-links">
+                        <ul>
+                            <li class="project-link project-link-live">
+                                <a href="#">Live demo</a>
+                            </li>
+                            <li class="project-link project-link-github">
+                                <a href="#">Source code</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="project-down-arrow">
+                      <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+                    </button>
+                </section>
+                <section class="project">
+                    <h3>AliceBob</h3>
+                    <img class="project-image" src="http://unsplash.it/350/150?random&amp;bust=3"
+                        alt="AliceBob screenshot">
+                    <p class="project-description">
+                        An Alice which allows you to Bob other Eves.
+                    </p>
+                    <ul class="project-stack">
+                        <li class="project-stack-item">
+                            <img src="assets/react.svg" alt="React JS Logo">
+                        </li>
+                        <li class="project-stack-item">
+                            <img src="assets/redux.svg" alt="Redux JS Logo">
+                        </li>
+                        <li class="project-stack-item">
+                            <img src="assets/nodejs-icon.svg" alt="Node JS Logo">
+                        </li>
+                    </ul>
+                    <nav class="project-links">
+                        <ul>
+                            <li class="project-link project-link-live">
+                                <a href="#">Live demo</a>
+                            </li>
+                            <li class="project-link project-link-github">
+                                <a href="#">Source code</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="project-down-arrow">
+                      <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+                    </button>
+                </section>
+                <section class="project">
+                    <h3>Wibble</h3>
+                    <img class="project-image" src="http://unsplash.it/350/150?random&amp;bust=4"
+                        alt="Wibble screenshot">
+                    <p class="project-description">
+                        A wibble which allows you to wobble other wubbles.
+                    </p>
+                    <ul class="project-stack">
+                        <li class="project-stack-item">
+                            <img src="assets/react.svg" alt="React JS Logo">
+                        </li>
+                        <li class="project-stack-item">
+                            <img src="assets/redux.svg" alt="Redux JS Logo">
+                        </li>
+                        <li class="project-stack-item">
+                            <img src="assets/nodejs-icon.svg" alt="Node JS Logo">
+                        </li>
+                    </ul>
+                    <nav class="project-links">
+                        <ul>
+                            <li class="project-link project-link-live">
+                                <a href="#">Live demo</a>
+                            </li>
+                            <li class="project-link project-link-github">
+                                <a href="#">Source code</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="project-down-arrow">
+                      <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+                    </button>
+                </section>
+              </div>
+            </div>
+          </section> -->
+          <!-- <hr> -->
+          <section class="contact" id="contact" tabindex="-1">
+            <div class="section-container">
+              <h2>Contact me</h2>
+              <nav class="contact-links">
+                  <ul>
+                      <li class="contact-link contact-link-email"><a href="mailto:"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
+                      <li class="contact-link contact-link-linkedin"><a href="https://www.linkedin.com/in/tckastanek/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+                      <li class="contact-link contact-link-github"><a href="https://github.com/tckastanek"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+                  </ul>
+              </nav>
+            </div>
+          </section>
+        </div>
+      </div>
+
+        <script src="https://use.fontawesome.com/a3172bc74b.js"></script>
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+          integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+          crossorigin="anonymous"></script>
+        <script type="text/javascript" src="client.js"></script>
+        <script src="velocity.min.js"></script>
+    </body>
+</html>
